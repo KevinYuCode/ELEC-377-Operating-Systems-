@@ -1,0 +1,288 @@
+[0;35mM [1667505930.740740] Monitor threads 3[0m
+[0;35mM [1667505930.741188] Printer delay (msec) 1500[0m
+[0;33mP [1667505930.741812] Printer Thread: delay 1500[0m
+[0;33mR [1667505930.741821] Reader Thread: 3 machines[0m
+[0;35m2 [1667505930.741829] thread 2, file name is machine_2.txt[0m
+[0;33m2 [1667505930.741858] Machine 2 started[0m
+[0;32m2 [1667505930.741894] Machine 2 Line 0: 0,0,0.000000,0,0[0m
+[0;33m2 [1667505930.741902] Sleeping for 1240 msec[0m
+[0;35m1 [1667505930.741909] thread 1, file name is machine_1.txt[0m
+[0;33m1 [1667505930.741927] Machine 1 started[0m
+[0;32m1 [1667505930.741950] Machine 1 Line 0: 1,9,0.900000,11,19[0m
+[0;33m1 [1667505930.741953] Sleeping for 1020 msec[0m
+[0;35m0 [1667505930.741960] thread 0, file name is machine_0.txt[0m
+[0;33m0 [1667505930.741974] Machine 0 started[0m
+[0;32m0 [1667505930.741996] Machine 0 Line 0: 1,4,0.500000,16,9[0m
+[0;33m0 [1667505930.741998] Sleeping for 900 msec[0m
+[0;32m0 [1667505931.642176] Machine 0 Line 1: 1,3,0.200000,5,19[0m
+[0;32m0 [1667505931.642191] Data was overwritten[0m
+[0;33m0 [1667505931.642193] Sleeping for 8000 msec[0m
+[0;33mR [1667505931.741977] Reader Thread loop start[0m
+[0;33mR [1667505931.741985] Reader Thread loop accessing_stats lock acquired[0m
+[1;31mR [1667505931.741987] Machine 2 is DOWN[0m
+[0;35mR [1667505931.741988] Total procs: 12, Load Factor: 1.100000, Packets per second: 16, Discards per second: 38[0m
+[0;33mR [1667505931.741995] Reader Thread loop accessing_stats lock released[0m
+[0;32m1 [1667505931.762024] Machine 1 Line 1: 1,1,0.100000,42,14[0m
+[0;33m1 [1667505931.762029] Sleeping for 8000 msec[0m
+[0;32m2 [1667505931.981976] Machine 2 Line 1: 1,10,0.200000,39,17[0m
+[0;33m2 [1667505931.981982] Sleeping for 8000 msec[0m
+[0;33mP [1667505932.241886] Printer Step[0m
+[1667505932] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  0 |                      0 |            0 
+      1 |  0 |                      0 |            0 
+      2 |  0 |                      0 |            0 
+[0;33mR [1667505932.963759] Reader Thread loop end[0m
+[0;33mR [1667505932.963767] Reader Thread loop start[0m
+[0;33mR [1667505932.963773] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505932.963773] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505932.963777] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505933.741972] Printer Step[0m
+[1667505933] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      2 |   1667505931 
+      1 |  1 |                      3 |   1667505930 
+      2 |  0 |                      0 |   1667505930 
+[0;33mR [1667505934.110379] Reader Thread loop end[0m
+[0;33mR [1667505934.110383] Reader Thread loop start[0m
+[0;33mR [1667505934.110384] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505934.110385] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505934.110388] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505935.043360] Reader Thread loop end[0m
+[0;33mR [1667505935.043370] Reader Thread loop start[0m
+[0;33mR [1667505935.043371] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505935.043375] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505935.043381] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505935.242049] Printer Step[0m
+[1667505935] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      4 |   1667505931 
+      1 |  1 |                      5 |   1667505931 
+      2 |  1 |                      4 |   1667505931 
+[0;33mR [1667505935.834777] Reader Thread loop end[0m
+[0;33mR [1667505935.835271] Reader Thread loop start[0m
+[0;33mR [1667505935.835273] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505935.835274] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505935.835276] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505936.641775] Reader Thread loop end[0m
+[0;33mR [1667505936.641782] Reader Thread loop start[0m
+[0;33mR [1667505936.641783] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505936.641784] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505936.641786] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505936.742132] Printer Step[0m
+[1667505936] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      5 |   1667505931 
+      1 |  1 |                      6 |   1667505931 
+      2 |  1 |                      5 |   1667505931 
+[0;33mR [1667505937.489374] Reader Thread loop end[0m
+[0;33mR [1667505937.489378] Reader Thread loop start[0m
+[0;33mR [1667505937.489379] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505937.489380] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505937.489382] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505938.242201] Printer Step[0m
+[1667505938] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      7 |   1667505931 
+      1 |  1 |                      8 |   1667505931 
+      2 |  1 |                      7 |   1667505931 
+[0;33mR [1667505938.254207] Reader Thread loop end[0m
+[0;33mR [1667505938.254208] Reader Thread loop start[0m
+[0;33mR [1667505938.254209] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505938.254209] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505938.254213] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505939.041985] Reader Thread loop end[0m
+[0;33mR [1667505939.041989] Reader Thread loop start[0m
+[0;33mR [1667505939.041990] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505939.041991] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505939.042010] Reader Thread loop accessing_stats lock released[0m
+[0;32m0 [1667505939.642302] Machine 0 Line 2: 0,0,0.000000,0,0[0m
+[0;33m0 [1667505939.642311] Sleeping for 1460 msec[0m
+[0;33mP [1667505939.742269] Printer Step[0m
+[1667505939] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      8 |   1667505931 
+      1 |  1 |                      9 |   1667505931 
+      2 |  1 |                      8 |   1667505931 
+[0;32m1 [1667505939.762107] Machine 1 Line 2: 0,0,0.000000,0,0[0m
+[0;33m1 [1667505939.762110] Sleeping for 980 msec[0m
+[0;33mR [1667505939.851592] Reader Thread loop end[0m
+[0;33mR [1667505939.851594] Reader Thread loop start[0m
+[0;33mR [1667505939.851594] Reader Thread loop accessing_stats lock acquired[0m
+[1;31mR [1667505939.851595] Machine 0 is DOWN[0m
+[1;31mR [1667505939.851595] Machine 1 is DOWN[0m
+[0;35mR [1667505939.851596] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505939.851598] Reader Thread loop accessing_stats lock released[0m
+[0;32m2 [1667505939.982067] Machine 2 Line 2: 0,0,0.000000,0,0[0m
+[0;33m2 [1667505939.982071] Sleeping for 1280 msec[0m
+[0;33mR [1667505940.606765] Reader Thread loop end[0m
+[0;33mR [1667505940.606767] Reader Thread loop start[0m
+[0;33mR [1667505940.606768] Reader Thread loop accessing_stats lock acquired[0m
+[1;31mR [1667505940.606768] Machine 2 is DOWN[0m
+[0;35mR [1667505940.607066] Total procs: 23, Load Factor: 1.400000, Packets per second: 97, Discards per second: 69[0m
+[0;33mR [1667505940.607070] Reader Thread loop accessing_stats lock released[0m
+[0;32m1 [1667505940.742179] Machine 1 Line 3: 1,4,0.600000,48,10[0m
+[0;33m1 [1667505940.742184] Sleeping for 1120 msec[0m
+[0;32m0 [1667505941.102384] Machine 0 Line 3: 1,1,0.200000,35,17[0m
+[0;33m0 [1667505941.102390] Sleeping for 940 msec[0m
+[0;33mP [1667505941.242334] Printer Step[0m
+[1667505941] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  0 |                      0 |   1667505939 
+      1 |  0 |                      0 |   1667505939 
+      2 |  1 |                     10 |   1667505931 
+[0;32m2 [1667505941.262136] Machine 2 Line 3: 1,6,0.700000,28,0[0m
+[0;33m2 [1667505941.262140] Sleeping for 1960 msec[0m
+[0;33mR [1667505941.401878] Reader Thread loop end[0m
+[0;33mR [1667505941.401881] Reader Thread loop start[0m
+[0;33mR [1667505941.401882] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505941.401882] Total procs: 34, Load Factor: 2.900000, Packets per second: 208, Discards per second: 96[0m
+[0;33mR [1667505941.401885] Reader Thread loop accessing_stats lock released[0m
+[0;32m1 [1667505941.862255] Machine 1 Line 4: 0,0,0.000000,0,0[0m
+[0;33m1 [1667505941.862261] Sleeping for 8000 msec[0m
+[0;32m0 [1667505942.042465] Machine 0 Line 4: 1,3,0.600000,10,10[0m
+[0;33m0 [1667505942.042471] Sleeping for 8000 msec[0m
+[0;33mR [1667505942.231598] Reader Thread loop end[0m
+[0;33mR [1667505942.231601] Reader Thread loop start[0m
+[0;33mR [1667505942.231602] Reader Thread loop accessing_stats lock acquired[0m
+[1;31mR [1667505942.231603] Machine 1 is DOWN[0m
+[0;35mR [1667505942.231603] Total procs: 37, Load Factor: 3.500000, Packets per second: 218, Discards per second: 106[0m
+[0;33mR [1667505942.231605] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505942.742400] Printer Step[0m
+[1667505942] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      1 |   1667505941 
+      1 |  1 |                      2 |   1667505940 
+      2 |  1 |                      1 |   1667505941 
+[0;33mR [1667505942.995915] Reader Thread loop end[0m
+[0;33mR [1667505942.995918] Reader Thread loop start[0m
+[0;33mR [1667505942.995919] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505942.995919] Total procs: 37, Load Factor: 3.500000, Packets per second: 218, Discards per second: 106[0m
+[0;33mR [1667505942.995922] Reader Thread loop accessing_stats lock released[0m
+[0;32m2 [1667505943.222208] Machine 2 Line 4: 1,1,0.200000,45,13[0m
+[0;33m2 [1667505943.222212] Sleeping for 8000 msec[0m
+[0;33mR [1667505943.754170] Reader Thread loop end[0m
+[0;33mR [1667505943.754172] Reader Thread loop start[0m
+[0;33mR [1667505943.754173] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505943.754173] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505943.754176] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505944.242466] Printer Step[0m
+[1667505944] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      3 |   1667505942 
+      1 |  0 |                      0 |   1667505941 
+      2 |  1 |                      3 |   1667505941 
+[0;33mR [1667505944.529647] Reader Thread loop end[0m
+[0;33mR [1667505944.529649] Reader Thread loop start[0m
+[0;33mR [1667505944.529650] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505944.529651] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505944.529654] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505945.293765] Reader Thread loop end[0m
+[0;33mR [1667505945.293935] Reader Thread loop start[0m
+[0;33mR [1667505945.293936] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505945.293937] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505945.293940] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505945.742535] Printer Step[0m
+[1667505945] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      4 |   1667505942 
+      1 |  0 |                      0 |   1667505941 
+      2 |  1 |                      4 |   1667505943 
+[0;33mR [1667505946.066831] Reader Thread loop end[0m
+[0;33mR [1667505946.066835] Reader Thread loop start[0m
+[0;33mR [1667505946.066836] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505946.066837] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505946.066840] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505946.822976] Reader Thread loop end[0m
+[0;33mR [1667505946.822979] Reader Thread loop start[0m
+[0;33mR [1667505946.822980] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505946.822981] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505946.822983] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505947.242609] Printer Step[0m
+[1667505947] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      6 |   1667505942 
+      1 |  0 |                      0 |   1667505941 
+      2 |  1 |                      6 |   1667505943 
+[0;33mR [1667505947.620612] Reader Thread loop end[0m
+[0;33mR [1667505947.620615] Reader Thread loop start[0m
+[0;33mR [1667505947.620616] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505947.620616] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505947.620619] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505948.376976] Reader Thread loop end[0m
+[0;33mR [1667505948.376979] Reader Thread loop start[0m
+[0;33mR [1667505948.376980] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505948.376981] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505948.376984] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505948.742678] Printer Step[0m
+[1667505948] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      7 |   1667505942 
+      1 |  0 |                      0 |   1667505941 
+      2 |  1 |                      7 |   1667505943 
+[0;33mR [1667505949.144366] Reader Thread loop end[0m
+[0;33mR [1667505949.144370] Reader Thread loop start[0m
+[0;33mR [1667505949.144371] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505949.144371] Total procs: 38, Load Factor: 3.700001, Packets per second: 263, Discards per second: 119[0m
+[0;33mR [1667505949.144375] Reader Thread loop accessing_stats lock released[0m
+[0;32m1 [1667505949.862335] Machine 1 Line 5: 1,5,0.400000,6,9[0m
+[0;33m1 [1667505949.862343] Sleeping for 1920 msec[0m
+[0;33mR [1667505949.911562] Reader Thread loop end[0m
+[0;33mR [1667505949.911564] Reader Thread loop start[0m
+[0;33mR [1667505949.911565] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505949.911565] Total procs: 43, Load Factor: 4.100000, Packets per second: 269, Discards per second: 128[0m
+[0;33mR [1667505949.911567] Reader Thread loop accessing_stats lock released[0m
+[0;32m0 [1667505950.042540] Machine 0 Line 5: 0,0,0.000000,0,0[0m
+[0;33m0 [1667505950.042544] Sleeping for 780 msec[0m
+[0;33mP [1667505950.242744] Printer Step[0m
+[1667505950] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  1 |                      9 |   1667505942 
+      1 |  0 |                      0 |   1667505941 
+      2 |  1 |                      9 |   1667505943 
+[0;33mR [1667505950.693354] Reader Thread loop end[0m
+[0;33mR [1667505950.693357] Reader Thread loop start[0m
+[0;33mR [1667505950.693358] Reader Thread loop accessing_stats lock acquired[0m
+[1;31mR [1667505950.693359] Machine 0 is DOWN[0m
+[0;35mR [1667505950.693359] Total procs: 43, Load Factor: 4.100000, Packets per second: 269, Discards per second: 128[0m
+[0;33mR [1667505950.693362] Reader Thread loop accessing_stats lock released[0m
+[0;32m2 [1667505951.222288] Machine 2 Line 5: 1,1,0.700000,2,19[0m
+[0;33m2 [1667505951.222294] Sleeping for 1200 msec[0m
+[0;33mR [1667505951.471626] Reader Thread loop end[0m
+[0;33mR [1667505951.471628] Reader Thread loop start[0m
+[0;33mR [1667505951.471629] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505951.471629] Total procs: 44, Load Factor: 4.800000, Packets per second: 271, Discards per second: 147[0m
+[0;33mR [1667505951.471632] Reader Thread loop accessing_stats lock released[0m
+[0;33mP [1667505951.742848] Printer Step[0m
+[1667505951] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  0 |                      0 |   1667505950 
+      1 |  1 |                      2 |   1667505949 
+      2 |  1 |                     10 |   1667505943 
+[0;33mR [1667505952.276195] Reader Thread loop end[0m
+[0;33mR [1667505952.276198] Reader Thread loop start[0m
+[0;33mR [1667505952.276199] Reader Thread loop accessing_stats lock acquired[0m
+[0;35mR [1667505952.276200] Total procs: 44, Load Factor: 4.800000, Packets per second: 271, Discards per second: 147[0m
+[0;33mR [1667505952.276202] Reader Thread loop accessing_stats lock released[0m
+[0;33mR [1667505953.046113] Reader Thread loop end[0m
+[0;33mP [1667505953.243029] Printer Step[0m
+[1667505953] SUMMARY INFORMATION
+MACHINE | UP | UPTIME                 | LAST UPDATE  
+-----------------------------------------------------
+      0 |  0 |                      0 |   1667505950 
+      1 |  1 |                      4 |   1667505949 
+      2 |  1 |                     12 |   1667505951 

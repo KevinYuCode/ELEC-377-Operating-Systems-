@@ -1,0 +1,58 @@
+#!/bin/sh
+
+#$1 is the name of the file
+# check that the number of arguments is 1 (Step 1)
+if [ "$#" -ne 1 ]; then
+    echo "Invalid number of arguments"
+    exit 1
+fi
+
+# check that the file exists (Step 1)
+if test -r "$1" ; then #test returns 0 if condition is true
+    echo "$1 exists"
+else
+    echo "$1 doesn't exist oof."
+fi
+
+# extract all of the Reader Messages (R) (Step 1)
+echo "Extracting Reader Messages"
+grep -E ".\[0;[0-9][0-9]mR" $1 > $1.Reader
+
+# add time range to end of file. (Step 3)
+headVal1=`head -n 1 $1.Reader | cut -b 11-20`
+headVal2=`head -n 1 $1.Reader | cut -b 22-27`
+tailVal1=`tail -n 1 $1.Reader | cut -b 11-20`
+tailVal2=`tail -n 1 $1.Reader | cut -b 22-27`
+head=${headVal1}${headVal2}
+tail=${tailVal1}${tailVal2}
+
+printf "Time Span: %.2f\n" $(($tail-$head))e-6 >> $1.Reader 
+
+# extract all of the Printer Messages (P)  (Step 1)
+echo "Extrating Summary Printer Messages"
+grep -E ".\[0;[0-9][0-9]mP" $1 > $1.Printer
+
+
+# add time range to end of file. (Step 3)
+headVal1=`head -n 1 $1.Printer | cut -b 11-20`
+headVal2=`head -n 1 $1.Printer | cut -b 22-27`
+tailVal1=`tail -n 1 $1.Printer | cut -b 11-20`
+tailVal2=`tail -n 1 $1.Printer | cut -b 22-27`
+head=${headVal1}${headVal2}
+tail=${tailVal1}${tailVal2}
+
+printf "Time Span: %.2f\n" $(($tail-$head))e-6 >> $1.Printer
+
+#find the number of machines (Step 2)
+echo "Find number of machines"
+
+MACHINES=`grep -E ".\[0;[0-9][0-9]m[0-5]" $1 | cut -b 8 | sort -u`
+
+
+# extract each machine messages (Step 2)
+echo "Extrating messages from machine"
+for i in ${MACHINES}
+do
+        echo "Extracting machine ${i}"
+        grep -E ".\[0;[0-9][0-9]+m${i}" $1 > $1.$i
+done

@@ -1,0 +1,24 @@
+Script started on 2022-10-27 12:26:03-04:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="177" LINES="13"]
+]0;19ky6@elec377-Thurs-PM-17: ~/elec377-Thurs-PM-17/lab3[01;32m19ky6@elec377-Thurs-PM-17[00m:[01;34m~/elec377-Thurs-PM-17/lab3[00m$ ./shell 
+%>   this is  a sentence
+4
+0: this
+1: is
+2: a
+3: sentence
+4: 0
+Error command not found.%>  this is  another sentence   
+4
+0: this
+1: is
+2: another
+3: sentence
+4: 0
+Error command not found.%> exit
+1
+0: exit
+1: 0
+]0;19ky6@elec377-Thurs-PM-17: ~/elec377-Thurs-PM-17/lab3[01;32m19ky6@elec377-Thurs-PM-17[00m:[01;34m~/elec377-Thurs-PM-17/lab3[00m$ exit
+exit
+
+Script done on 2022-10-27 12:26:53-04:00 [COMMAND_EXIT_CODE="0"]

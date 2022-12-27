@@ -1,0 +1,9 @@
+Script started on 2022-10-27 12:44:44-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="177" LINES="13"]
+]0;19ky6@elec377-Thurs-PM-17: ~/elec377-Thurs-PM-17/lab3[01;32m19ky6@elec377-Thurs-PM-17[00m:[01;34m~/elec377-Thurs-PM-17/lab3[00m$ ./shell 
+%> hello
+Hello 19ky6
+%> exit
+]0;19ky6@elec377-Thurs-PM-17: ~/elec377-Thurs-PM-17/lab3[01;32m19ky6@elec377-Thurs-PM-17[00m:[01;34m~/elec377-Thurs-PM-17/lab3[00m$ exit
+exit
+
+Script done on 2022-10-27 12:44:53-04:00 [COMMAND_EXIT_CODE="0"]
